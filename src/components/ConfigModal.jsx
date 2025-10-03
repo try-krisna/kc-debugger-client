@@ -15,14 +15,6 @@ import {
 } from "@chakra-ui/react"; 
 import { DEFAULT_CONFIG } from "../utils/kc-default-config";
 
-// const defaultConfig = {
-//   url: "https://redhat-dev.sso.gov.kh",
-//   realm: "krisna",
-//   clientId: "test-web",
-//   scope: "openid profile email",
-//   redirectUri: window.location.origin,
-// };
-
 export default function ConfigModal({ config, setConfig, isOpen, onClose }) {
   const [localConfig, setLocalConfig] = useState(config || DEFAULT_CONFIG);
 

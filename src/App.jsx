@@ -17,13 +17,6 @@ import ProfileViewer from "./components/ProfileViewer";
 import DeveloperTokenViewer from "./components/DeveloperTokenViewer"; 
 import { DEFAULT_CONFIG } from "./utils/kc-default-config";
 
-// const defaultConfig = {
-//   url: "https://redhat-dev.sso.gov.kh",
-//   realm: "krisna",
-//   clientId: "test-web",
-//   scope: "openid profile email",
-//   redirectUri: window.location.origin,
-// };
 
 function App() {
   const [config, setConfig] = useState(null);
