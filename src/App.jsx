@@ -138,6 +138,16 @@ function App() {
 
   return (
     <ChakraProvider>
+        <Box
+          w="100%"
+          bg="red.500"
+          color="white"
+          py={2}
+          textAlign="center"
+          fontWeight="bold"
+        >
+          🚧 FYI: This is a buggy web for testing own usecase only! 🚧
+        </Box>
       <Box w="100vw" h="100vh">
         <Container
           maxW="container.md"
